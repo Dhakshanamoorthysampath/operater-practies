@@ -9,8 +9,10 @@ public class CreateTwetterAccount {
 		if(scanner.nextInt()>18) {
 			
 			System.out.println("elagible for vote");
+		}else if(scanner.nextInt()<18) {
+			System.out.println("not elagible fo vote");
 		}else {
-			System.out.println("enelagible fo vote");
+			System.out.println("elagible for 18 above persone only");
 		}
 	}
 }
